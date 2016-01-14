@@ -3,6 +3,7 @@ class CreateComments < ActiveRecord::Migration
     create_table :comments do |t|
       t.text :commenttext
       t.string :author
+      t.integer :blogpost_id
 
       t.timestamps null: false
     end

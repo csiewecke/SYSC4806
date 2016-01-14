@@ -3,7 +3,9 @@
 one:
   commenttext: MyText
   author: MyString
+  blogpost_id: 1
 
 two:
   commenttext: MyText
   author: MyString
+  blogpost_id: 1
