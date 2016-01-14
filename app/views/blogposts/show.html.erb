@@ -1,14 +1,18 @@
+<head>
+  <link rel="stylesheet" href="blogposts.css">
+</head>
+
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
+<h2>
   <%= @blogpost.title %>
-</p>
+</h2>
 
-<p>
-  <strong>Contents:</strong>
+<div>
+  <boxed>
   <%= @blogpost.contents %>
-</p>
+  </boxed>
+</div>
 
 <%= link_to 'Edit', edit_blogpost_path(@blogpost) %> |
 <%= link_to 'Back', blogposts_path %>
